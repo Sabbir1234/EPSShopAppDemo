@@ -68,18 +68,34 @@
 			children = (
 				01DB73EA298C041300298A43 /* AppDelegate.swift */,
 				01DB73EC298C041300298A43 /* SceneDelegate.swift */,
+				01DB7408298C125400298A43 /* Model.swift */,
+				01F7DA76298CC0CE009FE8F1 /* View */,
 				01DB73F0298C041300298A43 /* Main.storyboard */,
 				01DB73F3298C041500298A43 /* Assets.xcassets */,
 				01DB73F5298C041500298A43 /* LaunchScreen.storyboard */,
 				01DB73F8298C041500298A43 /* Info.plist */,
-				01DB73FE298C058B00298A43 /* ShopHeaderView.swift */,
-				01DB7400298C05AC00298A43 /* ShopHeaderView.xib */,
+			);
+			path = EPSDemoApp;
+			sourceTree = "<group>";
+		};
+		01F7DA76298CC0CE009FE8F1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				01F7DA77298CC0D8009FE8F1 /* HeaderView */,
 				01DB7402298C092500298A43 /* ShopHomeViewController.swift */,
 				01DB7404298C0FBA00298A43 /* OrderedItemCell.swift */,
 				01DB7406298C118D00298A43 /* ShopViewModel.swift */,
-				01DB7408298C125400298A43 /* Model.swift */,
 			);
-			path = EPSDemoApp;
+			path = View;
+			sourceTree = "<group>";
+		};
+		01F7DA77298CC0D8009FE8F1 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				01DB73FE298C058B00298A43 /* ShopHeaderView.swift */,
+				01DB7400298C05AC00298A43 /* ShopHeaderView.xib */,
+			);
+			path = HeaderView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
